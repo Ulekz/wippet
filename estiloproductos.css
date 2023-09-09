@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50;
+}
+
+html {
+  height: 100%;
+}
+
+  #Fondo{ /*fondo*/
+    margin: auto;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .Encabezado { /*encabezado*/
+    margin: 10px;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #logo{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 10%; /* Ajusta el tamaño del logo*/
+  }
+
+  .img-logo{
+    width: 90%;
+  }
+
+  .Titulo{
+    font-family: blueberry;
+    font-size: 70px;
+    color: rgb(75, 3, 75);
+  }
+
+  .Subtitulo{
+    font-family: gajkley;
+    font-size: x-large;
+    color: purple;
+  }
+
+  #Navbar{ /*Menu*/
+    margin: 10px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    font-family: blueberry;
+  }
+
+  .Contenido {
+    background-color: rgba(231, 95, 243, 0.236);
+    width: 90%;
+    height: auto;
+    margin: 15px;
+    font-family: blueberry;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Contenido {
+      flex-direction: column;
+  }
+
+  .img {
+      margin-bottom: 20px;
+  }
+}
+
+.zoomable{
+    width: 45%;
+    height: 25%;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.zoomable:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.Pie {
+  background-color: rgba(238, 130, 238, 0.529);
+  color: purple;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: -1px 1px 7px 0px black;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px; 
+  font-family: gajkley;
+}
+
+.Redes{
+  display: inline-block;
+}
+
+.imgFB{
+  width: 3.5%;
+  height: 90%;
+}
+
+.imgINSTA{
+width: 3.5%;
+height: 90%;
+}
+
+.imgWA{
+width: 3.5%;
+height: 90%;
+}
+
+.imgGmail{
+width: 3.5%;
+height: 90%;
+}
+
+a {
+text-decoration: none;
+color: blueviolet;
+display: inline-block;
+margin-top: 10px;
+}

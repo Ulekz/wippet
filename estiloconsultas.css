@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  #Fondo{ /*fondo*/
+    margin: auto;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .Encabezado { /*encabezado*/
+    margin: 10px;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #logo{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 10%; /* Ajusta el tamaño del logo*/
+  }
+
+  .img-logo{
+    width: 90%;
+  }
+
+  .Titulo{
+    font-family: blueberry;
+    font-size: 70px;
+    color: rgb(75, 3, 75);
+  }
+
+  .Subtitulo{
+    font-family: gajkley;
+    font-size: x-large;
+    color: purple;
+  }
+
+    #Navbar{ /*Menu*/
+      margin: 10px;
+      box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 4px;
+      padding: 10px;
+      font-family: blueberry;
+  
+    }
+
+    .Cuerpo {   /*carrusel*/
+      width: 90%;
+      height: 90%;
+      margin: 10px;
+      box-shadow: -1px 1px 7px 0px black;
+      border-radius: 4px;
+      padding: 10px;
+      background-color: rgba(191, 86, 223, 0.31);
+    }
+  
+    .img-1{
+      width: 30%;
+      height: 20%;
+    }
+  
+    .img-2{
+      width: 25%;
+      height: 20%;
+    }
+  
+    .img-3{
+      width: 25%;
+      height: 20%;
+    }
+  
+    .img-4{
+      width: 25%;
+      height: 20%;
+    }
+
+    #Consulta {
+      width: auto;
+      height: auto;
+      margin: 10px;
+      font-family: blueberry;
+      box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 4px;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      border-spacing: 2px;
+    }
+  
+    .img-gral{
+        width: 80%;
+        height: 25%;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
+        justify-content: center;
+        border-spacing: 2px;
+    }
+  
+    .img-fauna{
+        width: 80%;
+        height: 25%;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
+        justify-content: center;
+        border-spacing: 2px;
+    }
+  
+    .img-oftal{
+        width: 80%;
+        height: 25%;
+        box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        padding: 10px;
+        justify-content: center;
+        border-spacing: 2px;
+    }
+
+    .Pie {
+      background-color: rgba(238, 130, 238, 0.529);
+      color: purple;
+      text-align: center;
+      padding: 20px 0;
+      box-shadow: -1px 1px 7px 0px black;
+      border-radius: 4px;
+      padding: 10px;
+      margin: 10px; 
+      font-family: gajkley;
+  }
+  
+  .Redes{
+      display: inline-block;
+  }
+  
+  .imgFB{
+      width: 3.5%;
+      height: 90%;
+  }
+  
+  .imgINSTA{
+  width: 3.5%;
+  height: 90%;
+  }
+  
+  .imgWA{
+  width: 3.5%;
+  height: 90%;
+  }
+  
+  .imgGmail{
+  width: 3.5%;
+  height: 90%;
+  }
+  
+  a {
+  text-decoration: none;
+  color: blueviolet;
+  display: inline-block;
+  margin-top: 10px;
+  }
+  
+    

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 50;
+}
+
+html {
+  height: 100%;
+}
+
+  #Fondo{ /*fondo*/
+    margin: auto;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .Encabezado { /*encabezado*/
+    margin: 10px;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #logo{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 10%; /* Ajusta el tamaño del logo*/
+  }
+
+  .img-logo{
+    width: 90%;
+  }
+
+  .Titulo{
+    font-family: blueberry;
+    font-size: 70px;
+    color: rgb(75, 3, 75);
+  }
+
+  .Subtitulo{
+    font-family: gajkley;
+    font-size: x-large;
+    color: purple;
+  }
+
+  #Navbar{ /*Menu*/
+    margin: 10px;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    font-family: blueberry;
+
+  }
+
+  #textoprincipal{
+    background-color: rgba(248, 248, 255, 0.511);
+    margin: 10px;
+    font-family: monserrat;
+    font-size: larger;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+#textofinal{
+    background-color: rgba(245, 245, 220, 0.463);
+    margin: 10px;
+    font-family: monserrat;
+    font-size: larger;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#Cuerpo {
+    background-color: rgba(240, 255, 255, 0.563);
+    margin: 10px;
+    text-align: justify;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    border: 10px;
+    padding: 10px;
+    font-family: monserrat;
+    font-size: larger;
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Pie {
+  background-color: rgba(238, 130, 238, 0.529);
+  color: purple;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: -1px 1px 7px 0px black;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px; 
+  font-family: gajkley;
+}
+
+.Redes{
+  display: inline-block;
+}
+
+.imgFB{
+  width: 3.5%;
+  height: 90%;
+}
+
+.imgINSTA{
+width: 3.5%;
+height: 90%;
+}
+
+.imgWA{
+width: 3.5%;
+height: 90%;
+}
+
+.imgGmail{
+width: 3.5%;
+height: 90%;
+}
+
+a {
+text-decoration: none;
+color: blueviolet;
+display: inline-block;
+margin-top: 10px;
+}

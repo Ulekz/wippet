@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estiloindex.css">
+    <script src="Script.js"></script>
+    <title>Wippet</title>
+</head>
+
+<body class="General">
+
+    <div id="Fondo">
+
+        <header class="Encabezado">
+                <div id="logo"> <img src="LogoWPnew.jpg" alt="logo" class="img-logo"> </div>
+                <div class="Titulo-Container">
+                    <h1 id="Titulo"> w i p p e t </h1>
+                </div>
+                <div class="Subtitulo-Container">
+                    <h2 id="Subtitulo"> Consintiendo a tu Mascota </h2>
+                </div>
+        </header>
+
+        <div id="saludo"></div> 
+
+        <nav id="Navbar">
+            <div class="Menu">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="acerca.html">Familia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultas.html">Consultas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="grooming.html">Grooming</a></li>
+                            <li><a class="dropdown-item" href="paseos.html">Paseos</a></li>
+                            <li><a class="dropdown-item" href="hospedaje.html">Hospedaje</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+
+        <center>
+            <main class="Cuerpo">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="informacion3.jpg" class="img-1" alt="nodiscriminacion">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="mensaje1.jpg" class="img-2" alt="mensajesamor">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="tipinformativo.jpg" class="img-3" alt="tip-1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="tipinformativo1.jpg" class="img-4" alt="tip-2">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </center>
+
+            <div id="message-container">
+                <div id="message-box">
+                    <img src="gatopenoso.gif" alt="agradecimiento" class="Gracias">
+                    <p>¡Bienvenidos a Wippet!</p>
+                    <p>Si deseas agendar, contáctanos dando click al número:</p>
+                    <a id="whatsapp-link" href="https://wa.me/7712406339">7712406339</a>
+                    <br>
+                    <p>Para continuar da click en cualquier lugar.</p>
+                </div>
+            </div>
+
+        <center>
+            <div class="Media">
+                <div class="item Video">
+                    <video src="amamosconsentirlos.mp4" class="Gatovideo" controls autoplay id="myVideo"></video>
+                </div>
+                <div class="item Mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.7838932441837!2d-98.77094282507245!3d20.059492620363095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a148aa56a70b%3A0x3e21c044664b0ad6!2sWippet!5e0!3m2!1ses-419!2smx!4v1692155008227!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="item Video">
+                    <video src="doggiconsulta.mp4" class="Perrovideo" controls autoplay id="myVideo"></video>
+                </div>
+            </div>
+        </center>
+
+            <footer class="Pie">
+                <div class="Redes">
+                    <img src="facebook.png" alt="Facebook" class="imgFB"> <a href="https://www.facebook.com/somoswippet"> https://www.facebook.com/somoswippet </a>
+                    <img src="instagram.png" alt="Instagram" class="imgINSTA"> <a href="https://www.instagram.com/somoswippet/"> https://www.instagram.com/somoswippet/ </a>
+                    <img src="whatsapp.png" alt="Whatsapp" class="imgWA"> <a href="https://api.whatsapp.com/send?phone=7712406339">  771 240 6339 </a>
+                    <img src="gmail.png" alt="Gmail" class="imgGmail"> <a href="mailto:vet.wippet@gmail.com">  vet.wippet@gmail.com </a>
+                </div>
+                <p class="descripcion"> Síguenos en redes sociales para mantenerte al tanto de nuestras novedades. </p>
+                <p class="rights-reserved">© 2023 Wippet. Todos los derechos reservados. </p>
+            </footer>
+
+    </div>    
+
+</body>
+</html>
